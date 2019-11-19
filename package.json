@@ -1,6 +1,6 @@
 {
   "name": "ds-in-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "- Stack\r - Queue\r - Linked List\r - Tree\r - Graph\r - Hash Table",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,10 @@
     "queue",
     "heap",
     "ds",
-    "dsinjs"
+    "dsinjs",
+    "data",
+    "structures",
+    "datastructures"
   ],
   "devDependencies": {
     "@types/jest": "^24.0.19",
