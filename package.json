@@ -1,0 +1,55 @@
+{
+  "name": "ds-in-js",
+  "version": "1.0.0",
+  "description": "- Stack\r - Queue\r - Linked List\r - Tree\r - Graph\r - Hash Table",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "publish:major": "npm version major && git push && git push --tags",
+    "publish:minor": "npm version minor && git push && git push --tags",
+    "publish:patch": "npm version patch && git push && git push --tags",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishtayal89/ds-in-js.git"
+  },
+  "author": "Ashish Tayal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishtayal89/ds-in-js/issues"
+  },
+  "homepage": "https://github.com/ashishtayal89/ds-in-js#readme",
+  "keywords": [
+    "computer-science",
+    "cs",
+    "data-structures",
+    "javascript",
+    "tree",
+    "stack",
+    "queue",
+    "heap",
+    "ds",
+    "dsinjs"
+  ],
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "coveralls": "^3.0.3",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.5.0",
+    "lint-staged": "^8.1.5",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "bundleDependencies": false,
+  "deprecated": false
+}
